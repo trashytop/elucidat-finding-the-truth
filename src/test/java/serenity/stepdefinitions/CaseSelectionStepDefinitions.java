@@ -19,14 +19,14 @@ public class CaseSelectionStepDefinitions {
 
     // TODO: parameterise these next two methods by case name
     @When("{actor} chooses the who is to blame? case")
-    public void heChoosesTheWhoIsToBlameCase(Actor actor) throws InterruptedException {
+    public void heChoosesTheWhoIsToBlameCase(Actor actor) {
         actor.attemptsTo(
           ChooseACase.whoIsToBlame()
         );
     }
 
     @When("{actor} chooses the making a case against Kevin case")
-    public void heChoosesTheMakingACaseAgainstKevinCase(Actor actor) throws InterruptedException {
+    public void heChoosesTheMakingACaseAgainstKevinCase(Actor actor) {
         actor.attemptsTo(
           ChooseACase.makingACaseAgainstKevin()
         );

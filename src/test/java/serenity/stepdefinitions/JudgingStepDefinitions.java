@@ -8,7 +8,7 @@ import serenity.cases.Judge;
 public class JudgingStepDefinitions {
 
     @And("{actor} judges")
-    public void heJudges(Actor actor) throws InterruptedException {
+    public void heJudges(Actor actor) {
         actor.attemptsTo(Judge.judgeThis());
     }
 }
