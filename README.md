@@ -28,11 +28,15 @@ The project has a Maven build script and follows the standard directory structur
 src
   + main
   + test
-    + java                        Test runners and supporting code
+    + java   
+      + serenity                  Test runners and supporting code
     + resources
       + features                  Feature files
-     + search                  Feature file subdirectories 
-             search_by_keyword.feature
+        + cases                     
+             case_selection.feature
+             research_says.feature
+             scoring.feature
+             verdict_voting.feature
 ```
 ## Screenplay 
 
